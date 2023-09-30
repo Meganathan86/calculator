@@ -1,1 +1,39 @@
 
+body {
+    background-image: url('pic.jpg');
+    position:absolute;
+    margin-left: 40%;
+    margin-right: 50%;
+    margin-top: 200px;
+   
+}
+.cal {
+    background-color: rgb(165, 0, 187);
+    border: 1px solid black;
+    border-width: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+table {
+    background-color: rgb(255, 136, 0);
+    background-size: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+    padding: 5px;
+}
+td {
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 10px;
+}
+input {
+    color: rgb(0, 0, 0);
+    background-color: rgb(253, 244, 244);
+}
+button {
+    color: green;
+    width: 10px;
+}
