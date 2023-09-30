@@ -1,1 +1,47 @@
-This HTML file
+<!--This HTML file-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div  class="cal">
+        <input type="text" id="display" disabled>
+        <table>
+            <tr>
+                <td><input type="button" value="AC" onclick="appendValue(AC)"></td>
+                <td><input type="button" value="rem" onclick="appendValue(Remove)"></td>
+                <td><input type="button" value="emoji" onclick="appendValue(Emoji)"> </td>
+                <td><input type="button" value="/" onclick="appendValue('/')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="appendValue(7)"></td>
+                <td><input type="button" value="8" onclick="appendValue(8)"></td>
+                <td><input type="button" value="9" onclick="appendValue(9)"></td>
+                <td><input type="button" value="*" onclick="appendValue('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="appendValue(4)"></td>
+                <td><input type="button" value="5" onclick="appendValue(5)"></td>
+                <td><input type="button" value="6" onclick="appendValue(6)"></td>
+                <td><input type="button" value="-" onclick="appendValue('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="appendValue(1)"></td>
+                <td><input type="button" value="2" onclick="appendValue(2)"></td>
+                <td><input type="button" value="3" onclick="appendValue(3)"></td>
+                <td><input type="button" value="+" onclick="appendValue('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="%" onclick="appendValue('%')"></td>
+                <td><input type="button" value="0" onclick="appendValue(0)"></td>
+                <td><input type="button" value="." onclick="appendValue('.')"></td>
+                <td><input type="button" value="=" onclick="appendValue('=')"></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
